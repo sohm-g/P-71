@@ -1,0 +1,144 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <title>School app</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+    <nav class="navbar-inverse my_nav_bar">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="iconbar"></span>
+                <span class="iconbar"></span>
+                <span class="iconbar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Lord Roberts Elementary School</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="Campus_Life">Campus Life</a></li>
+                <li><a href="Achievements">Achievements</a></li>
+                <li><a href="Whats_New">Whats New</a></li>
+                <li><a href="Alumni">Alumni</a></li>
+                <li><a href="Contact_Us">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="announcement">
+        <marquee id="marqueestyle" onmouseover="this.stop();" onmouseout="this.start();">
+            *** Feel free to ask question at the teams website ***
+        </marquee>
+    </div>
+
+    <iframe width="1000" height="600" src="https://www.youtube.com/embed/qJh7LCgJpMw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <center id="Campus_Life">
+    <div class="page-header">
+        <h2 class="text-capitalize">Campus Life</h2>
+        <div class="row">
+            <div class="travel_mainDiv">
+                <img class="img-responsive" src="https://fastly.4sqi.net/img/general/600x600/21543439_biBCk5HeVL7_v5CqWC4mz51kqRGAlknC9ghKqhlXCcU.jpg">
+                <h4 class="text-capitalize"><kdb>school gym</kdb></h4>
+                <hr>
+                <h5 class="text-success text-left text-capitalize">Was established in 1945</h5>
+                <p class="text-muted text-left">Mostly we use the gym for sports and anouncements but once they use it for a inter school basketball match.</p>
+            </div>
+            
+            <div class="travel_mainDiv">
+                <img class="img-responsive" src="https://www.vsb.bc.ca/schools/lord-roberts/Style%20Library/sbimg/190424/6fe71425-08c4-4ee5-9ea0-4db1b7f4999f.jpg">
+                <h4 class="text-capitalize"><kdb>Library</kdb></h4>
+                <hr>
+                <h5 class="text-success text-left text-capitalize">Was established in 1987</h5>
+                <p class="text-muted text-left">The lord Roberts elementary school library has over 1000 books it is all organized and has all the varities of books.</p>
+            </div>
+            
+            <div class="travel_mainDiv">
+                <img class="img-responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHVw2K9lc41mGMGD5er76HMnTkK-r6sngkLg&usqp=CAU">
+                <h4 class="text-capitalize"><kdb>Murals</kdb></h4>
+                <hr>
+                <h5 class="text-success text-left text-capitalize">Was established in 1987</h5>
+                <p class="text-muted text-left">The mural was made by the students and teacher.</p>
+            </div>
+        </div>
+    </div>
+    </center>
+
+    <hr>
+    <center id="Achievements">
+    <p>Basketball Touranment</p>
+    <div class="line">
+
+        <h5 class="text-success text-center text-capitalize">won champianships</h5>
+        <p>The match was very close but in the end we won the match by a half court swish</p>
+
+    <hr>
+    </center>
+
+    <center id="Whats_New">
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li">
+                <h4>We choose group</h4>
+                <img src="https://artstarts.com/assets/uploads/images/blog/October_13-2009_2.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                    <br>Currently the groups ideas for using the money is nets, tranpoleans, extra forest area, and seesaw. 
+                </p>
+            </li>
+        </ul>
+    </center>
+
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" id="aluminilist" data-toggle="modal" data-target="#school-alumnil">
+        <img src="https://www.gcsnc.com/cms/lib/NC01910393/Centricity/Domain/5242/headshot.png" class="img-responsive">
+        <hr>
+        <p class="text-primary">Mr. Melvin Allen principal</p>
+    </div>
+    <div class="modal fade" id="school_alumnil">
+        <div class="modal-dailog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Mr. Melvin Allen principal</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="https://www.gcsnc.com/cms/lib/NC01910393/Centricity/Domain/5242/headshot.png" class="img-responsive img-modal">
+                    <p class="p_modal">District - High School Principal</p>
+                    <a href="https://www.krsd.org/domain/210#:~:text=Mr.,all%20the%20students%20of%20Kingsway."><b>To Know More</b></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer"></div>
+
+    <center id="Contact_Us">
+    <p>CONTACT US</p>
+    <hr>
+
+    <div id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5204.993686726404!2d-123.14205040003051!3d49.28593065354226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54867228ea4b5381%3A0x9c1ad4235c9d12f8!2sLord%20Roberts%20Elementary%20School!5e0!3m2!1sen!2sca!4v1615147622663!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
+    <div id="details">
+        <h3>Principle Name:</h3>
+        <h4>Mr. Melvin</h4>
+        <div class="contact_1">
+            <a href="mallto:school@gmail.com?Subject-H1">
+                <h5><i class="fa fa envelope"></i>&nbsp;&nbsp;school@gmail.com</h5>
+            </a>
+        </div>
+    </div>
+    </center>
